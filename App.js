@@ -1,14 +1,10 @@
 import React from "react";
 import { AppRegistry, StyleSheet, View } from "react-native";
-import Screen from "./screen";
+import Screen from "./components/Screen";
 
 class App extends React.Component {
   render() {
-    return (
-      <View style={styles.appContainer}>
-        <Screen />
-      </View>
-    );
+    return <Screen />;
   }
 }
 
